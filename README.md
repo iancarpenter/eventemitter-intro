@@ -1,6 +1,7 @@
 # EventemitterIntro
 
-Completed solution for the blog post "An introduction to Angular EventEmitters"
+Completed solution for the blog post "An introduction to Angular EventEmitters" 
+https://oraclefrontovik.com/2019/01/13/an-introduction-to-angular-eventemitters/
 
 ## Development server
 
