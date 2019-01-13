@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'eventemitter-intro';
+  buttonPressed: string;
+
+  whichButtonPressed() {
+    // console.log('The button pressed is ' + (<HTMLButtonElement>event.currentTarget).innerText);
+
+    this.buttonPressed =  (<HTMLButtonElement>event.currentTarget).innerText;
+
+  }
+
 }
